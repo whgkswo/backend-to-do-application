@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class Controller {
     @GetMapping("/")
     public String welcome (){
-        return "To-do Application!";
+        return "Backend To-do Application!";
     }
 }
